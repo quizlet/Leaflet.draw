@@ -7,7 +7,7 @@ L.EditToolbar.Edit = L.Handler.extend({
 		TYPE: 'edit'
 	},
 
-	includes: L.Mixin.Events,
+	includes: L.Evented.prototype,
 
 	// @method intialize(): void
 	initialize: function (map, options) {

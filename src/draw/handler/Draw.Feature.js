@@ -5,7 +5,7 @@ L.Draw = L.Draw || {};
  * @aka Draw.Feature
  */
 L.Draw.Feature = L.Handler.extend({
-	includes: L.Mixin.Events,
+	includes: L.Evented.prototype,
 
 	// @method initialize(): void
 	initialize: function (map, options) {

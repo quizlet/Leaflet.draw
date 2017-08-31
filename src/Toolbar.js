@@ -44,7 +44,7 @@
  * ```
  */
 L.Toolbar = L.Class.extend({
-	includes: [L.Mixin.Events],
+	includes: [L.Evented.prototype],
 
 	// @section Methods for modifying the toolbar
 
